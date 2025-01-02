@@ -71,6 +71,12 @@
       "schema": "./lib/module/schema.json",
       "aliases": ["mo"]
     },
+    "hexagonal": {
+      "factory": "./lib/hexagonal/module.factory#main",
+      "description": "Create a Nest hexagonal module.",
+      "schema": "./lib/module/schema.json",
+      "aliases": ["hex"]
+    },
     "pipe": {
       "factory": "./lib/pipe/pipe.factory#main",
       "description": "Create a Nest pipe.",
